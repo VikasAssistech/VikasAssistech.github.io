@@ -1,0 +1,159 @@
+<html>
+
+<title>Other Activity</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+<!--  <a href="index.html"><img src="myname.jpg" style="width:100%"></a> -->
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>POETRY</p>
+  </a>
+  <a href="#award" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-diamond" style="font-size:36px"></i>
+    <p>GAIN</p>
+  </a>  
+  <a href="#music" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-music" style="font-size:36px"></i>
+    <p>MUSIC</p>
+  </a>
+  <a href="#quotes" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-quote-left"style="font-size:36px"></i>
+    <p>QUOTES</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">POETRY</a>
+	<a href="#award" class="w3-bar-item w3-button" style="width:25% !important">GAIN</a>
+	<a href="#music" class="w3-bar-item w3-button" style="width:25% !important">MUSIC</a>	
+    <a href="#quotes" class="w3-bar-item w3-button" style="width:25% !important">QUOTES</a>
+
+  </div>
+</div>
+
+<div class="w3-padding-large" id="main">
+<div class="w3-padding-64 w3-content" id="#">
+    <h3 class="w3-padding-12 w3-text-light-grey">My Poems</h3>
+	<hr style="width:150px" class="w3-opacity">	
+	<center>
+	<iframe src="https://drive.google.com/file/d/1Vy5WRugClyEHe2ds8fVN9NCdvLAWIGv7/preview" width="384" height="388"> </iframe>
+	</center>
+</div>
+
+
+<div class="w3-padding-64 w3-content" id="award">
+    <h3 class="w3-padding-12 w3-text-light-grey">Achievements</h3>
+	<hr style="width:150px" class="w3-opacity">	
+
+	<p><a class="w3-large w3-margin-right">1. COVID-19 Tracker, Contact Tracing Application (Team Work) </a> | <a href="https://inshorts.com/en/news/iitd-students-make-app-to-identify-those-coming-in-contact-with-covid19-patient-1585367500720"> Know more...</a></p>    
+	<p><a class="w3-large w3-margin-right">2. Newton Bhabha Fellowship, British Council, UK</a></p>
+	<p><a class="w3-large w3-margin-right">3. Kaizen Competitions, Social Innovation Challenge 2.0, IIT Delhi (Team Work)</a> | <a href="https://docs.google.com/presentation/d/e/2PACX-1vQs_oatH2zmjKXT1WmD_AEkR0Ja739wWmisTEj5W-UITw72lZGt0G-bfao9he3lUSx9T7-fnk09rvc-/pub?start=false&loop=false&delayms=3000"> Know more...</a></p>
+	<p><a class="w3-large w3-margin-right">4. IETE Council Award II, 2008, IETE, New Delhi </a></p>  
+    <p><a class="w3-large w3-margin-right">5. Si2Chip IoT Innovation Award, 2016, NIELIT (Team Work)</a></p>
+</div>
+
+<div class="w3-padding-64 w3-content" id="music">
+    <h3 class="w3-padding-12 w3-text-light-grey">Favourite Music</h3>
+	<hr style="width:150px" class="w3-opacity">	
+	<p><a class="w3-large w3-margin-right">Instrumental</a></p>
+	<audio controls>
+	<source src="music/ItzhakPerlman.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	<p><a class="w3-large w3-margin-right">Laadki</a></p>
+	<audio controls>
+	<source src="music/Laadki.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	</audio>
+	<p><a class="w3-large w3-margin-right">Mera Saaya</a></p>
+	<audio controls>
+	<source src="music/Mera Saaya Saath Hoga.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	</audio>
+	<p><a class="w3-large w3-margin-right">Ek Pyar Ka Nagma Hai</a></p>
+	<audio controls>
+	<source src="music/Ek Pyar Ka Nagma Hai.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	<p><a class="w3-large w3-margin-right">Lag Ja Gale</a></p>
+	<audio controls>
+	<source src="music/Lag Ja Gale.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	</audio>
+	<p><a class="w3-large w3-margin-right">Pal Pal Dil Ke Paas</a></p>
+	<audio controls>
+	<source src="music/Pal Pal Dil Ke Paas.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+	</audio>
+	
+</div>
+
+
+<div class="w3-padding-64 w3-content" id="quotes">
+    <h3 class="w3-padding-12 w3-text-light-grey">Favourite Quotes</h3>
+	<hr style="width:150px" class="w3-opacity">	
+	<p align="left">The Violinist:</p>
+	<p align="left">You know, sometimes it is the artist’s task to find out how much music you can still make with what you have left."</p>
+	<p align="right">~ Itzhak Perlman</p>
+	<br>
+	<p align="left">The Happiness:</p>
+    <p align="left">"There is no time, So brief is life, for bickering , apologizes, heartbreaking, calling to account. There is only time for loving, and but an instant, so to speak, for that". Good life is built with good relationships. Good relationships keep us healthier and happier.</p>  
+	<p align="right">~ Mark Twain</p>
+	<br>
+	<p align="left">Pursuits of Life:</p> 
+	<p align="left">Life is such an incredible journey which should be lived with patience and believe to pursue four major objectives.<br> 
+	<ul>
+	<li>DHARMA: The quality of being morally right or justifiable. DHARMA is a comprehensive, it covers an entire range of values.</li>
+	<li>ARTHA: Acquisition of wealth by proper means and its right use.</li>
+	<li>KAMA: Fulfillment of noble desires.</li>
+	<li>MOKSHA: Liberation or the final Goal.(It requires arduous spiritual practice and usually takes efforts on many births)</li>
+	</ul> 
+	It is essential to have the proper understanding of these objectives (as also because these terms are highly used in our daily language to 
+	mean different things)</p>
+	<p align="right">~ Lord Krishna</p>
+	<br>
+	<p align="left">Beautiful Lines:</p> 
+	<p align="left">When I got enough confidence, the stage was gone. When I was sure of losing, I won. When I needed people the most, they left me. 
+	When I learned to dry my tears, I found a shoulder to cry on. When I mastered the skill of hating, someone started loving me from the core of the 
+	heart and while waiting for the light for hours when I fell asleep the sun comes up that’s life. No matter what you plan, you never know what life 
+	has planned for you. Success introduces you to the world. But failure introduces the world to you. Always be happy. Often when we lose hope and think 
+	this is the end. God smiles from above and says relax sweetheart; It’s just a bend, not the end.</p>
+	<p align="right">~ Sophia Loren</p>
+	<br>
+	<p align="left">Peace: </p>
+	<p align="left">If there is righteousness in the heart, there will be beauty in the character. If there is beauty in the character, there will be 
+	harmony in the home. If there is harmony in the home, there will be order in the nations. When there is order in the nations, there will peace in 
+	the world.</p>
+	<p align="right">- Confucius</p>
+	
+</div>
+</div>
+</body>
+</html>
